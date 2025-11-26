@@ -50,10 +50,12 @@ const AddOffer = () => {
           label="Offer Duration"
           value={range}
           isRequired
-          onChange={(e) => setRange({
-            start: e.start,
-            end: e.end,
-          })}
+          onChange={(e) => {
+            e && setRange({
+              start: e.start,
+              end: e.end,
+            })
+          }}
         />
 
         <span>{range && range.start.toString()}</span>
