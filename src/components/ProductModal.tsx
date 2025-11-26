@@ -8,7 +8,7 @@ import { MediaType } from "@/types/media";
 import { Bundle, Product as ProductType, Variation } from "@/types/product";
 import { Button } from "@nextui-org/button";
 import { Chip } from "@nextui-org/chip";
-import { Modal, ModalContent } from "@nextui-org/modal";
+import { Modal, ModalContent } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import { FC, useEffect, useState } from "react";
