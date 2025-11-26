@@ -13,7 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FC, useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import { LuLoader2 } from "react-icons/lu";
+import { LuLoader } from "react-icons/lu";
 import { MdAdd, MdRemove } from "react-icons/md";
 import BundleBox from "./BundleBox";
 import VariationBox from "./VariationBox";
@@ -179,7 +179,7 @@ const ProductModal: FC<ProductModalProps> = ({ isOpen, onOpenChange, product }) 
                       }
                     }}
                   >
-                    {!formLoading ? "Add To Cart" : <LuLoader2 className="animate-spin" />}
+                    {!formLoading ? "Add To Cart" : <LuLoader className="animate-spin" />}
                   </Button>
                 </section>
 

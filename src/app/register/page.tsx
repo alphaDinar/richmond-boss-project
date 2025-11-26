@@ -17,7 +17,7 @@ import { useCart } from "@/contexts/cartContext";
 import { useWishList } from "@/contexts/wishListContext";
 import { Customer } from "@/types/customer";
 import { sendWelcomeSMS } from "@/firebase/smsService";
-import { LuLoader2 } from "react-icons/lu";
+import { LuLoader } from "react-icons/lu";
 
 const Register = ({ searchParams }: { searchParams: { target: string } }) => {
   const authTarget = searchParams.target ? searchParams.target : '/';
@@ -193,7 +193,7 @@ const Register = ({ searchParams }: { searchParams: { target: string } }) => {
           <article className="flex flex-col mt-1 gap-1 items-end">
             <Button type="submit" fullWidth className="bg-[var(--theme)] text-white font-bold">
               {formLoading && formLevel === 3 ?
-                <LuLoader2 className="animate-spin" />
+                <LuLoader className="animate-spin" />
                 :
                 <span>Continue</span>
               }

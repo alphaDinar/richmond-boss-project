@@ -21,7 +21,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { FaGripfire, FaWhatsapp } from 'react-icons/fa';
 import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline } from 'react-icons/io5';
-import { LuLoader2 } from 'react-icons/lu';
+import { LuLoader } from 'react-icons/lu';
 import { MdAdd, MdArrowForward, MdHome, MdRemove } from 'react-icons/md';
 import styles from './viewProduct.module.css';
 import TopNav from '@/components/TopNav/TopNav';
@@ -300,7 +300,7 @@ const ViewProduct = ({ searchParams }: { searchParams: { id: string } }) => {
                       }
                     }}
                   >
-                    {!formLoading ? "Add To Cart" : <LuLoader2 className="animate-spin" />}
+                    {!formLoading ? "Add To Cart" : <LuLoader className="animate-spin" />}
                   </Button>
                 </section>
 

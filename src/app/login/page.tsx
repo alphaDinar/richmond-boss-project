@@ -10,7 +10,7 @@ import { usePrompt } from "@/contexts/promptContext";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/contexts/cartContext";
 import { useWishList } from "@/contexts/wishListContext";
-import { LuLoader2 } from "react-icons/lu";
+import { LuLoader } from "react-icons/lu";
 import { handleGoogleLogin, verifyUser } from "@/firebase/authService";
 import { fixPrompt } from "@/external/assets";
 
@@ -70,7 +70,7 @@ const Register = ({ searchParams }: { searchParams: { target: string } }) => {
           <article className="flex flex-col mt-1 gap-1 items-end">
             <Button type="submit" fullWidth className="bg-[var(--theme)] text-white font-bold">
               {formLoading ?
-                <LuLoader2 className="animate-spin" />
+                <LuLoader className="animate-spin" />
                 :
                 <span>Continue</span>
               }

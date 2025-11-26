@@ -21,7 +21,7 @@ import { useCustomerLoading } from "@/loaders/customerLoadingContext";
 import { useCartLoading } from "@/loaders/cartLoading";
 import LoadingBox from "@/components/LoadingBox";
 import { useRouter } from "next/navigation";
-import { LuLoader2 } from "react-icons/lu";
+import { LuLoader } from "react-icons/lu";
 import { doc, setDoc } from "firebase/firestore";
 import { fireStoreDB } from "@/firebase/base";
 import { sendOrderPlacedPrompt, sendOrderPlacedSMS } from "@/firebase/smsService";
@@ -235,7 +235,7 @@ const Checkout = () => {
                     type="submit" className="w-full text-sm bg-[var(--theme)] text-white" radius="md">
                     {formLoading && mode == 'order'
                       ?
-                      <LuLoader2 className="animate-spin" />
+                      <LuLoader className="animate-spin" />
                       :
                       <span>Place Order</span>
                     }
@@ -265,7 +265,7 @@ const Checkout = () => {
                       className="w-full bg-[var(--pass)] text-white" radius="md">
                       {formLoading && mode == 'chat'
                         ?
-                        <LuLoader2 className="animate-spin" />
+                        <LuLoader className="animate-spin" />
                         :
                         <>
                           <span>Order on Whatsapp</span>
