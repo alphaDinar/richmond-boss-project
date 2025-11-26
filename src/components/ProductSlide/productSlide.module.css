@@ -1,0 +1,94 @@
+.set {
+  display: grid;
+  gap: 2vh;
+}
+
+.set header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.set header h3 {
+  font-size: 1.5rem;
+}
+
+.navBox{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-end;
+}
+
+.navBox nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navBox legend {
+  border: 1px solid darkgray;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navBox svg {
+  font-size: 20px;
+}
+
+.navBox p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navBox p small{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navBox p > *:nth-child(1){
+  color: var(--theme);
+}
+
+.productSlide {
+  width: 100%;
+  display: grid;
+  margin: auto;
+}
+
+.slideBox {
+  width: 100%;
+}
+
+@media all and (max-width:850px){
+  .set{
+    gap: 2vh;
+  }
+  .set header{
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
+  .set header h3{
+    font-size: 1.2rem;
+  }
+  .navBox{
+    align-items: revert;
+  }
+
+  .navBox legend {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .navBox svg {
+    font-size: 15px;
+  }
+
+  .navBox p{
+    display: none;
+  }
+}

@@ -1,0 +1,495 @@
+.group{
+  display: grid;
+  gap: 3vh;
+}
+
+.bannerBox{
+  background: var(--bg);
+  display: flex;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bannerBox a{
+  color: white;
+  font-size: 0.8rem;
+}
+
+.bannerBox svg{
+  color: gray;
+}
+
+.bannerBox span{
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+.productBox {
+  display: grid;
+  gap: 5vh;
+}
+
+.top {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+}
+
+/* top Left  */
+.top .left,
+.top .left .imgBoxHolder {
+  display: grid;
+}
+
+.top .left {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.top .left .imgBoxHolder {
+  /* border: 1px solid var(--line); */
+  height: 480px;
+  /* padding: 3vh; */
+  position: relative;
+}
+
+.top .left .imgBoxHolder .expand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  background: white;
+}
+
+.top .left .imgBoxHolder .imgBox {
+  position: relative;
+}
+
+.top .left .mediaSet {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.top .left .mediaSet div {
+  display: grid;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  /* background: salmon; */
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+
+/* top right */
+.top .right {
+  display: grid;
+  gap: 3vh;
+}
+
+.top .right header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top .right header legend {
+  background: var(--pass);
+  color: white;
+  padding: 4px 6px;
+  font-size: 0.9rem;
+}
+
+.top .right header nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.top .right header nav svg {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.controlGroup {
+  display: grid;
+  gap: 3vh;
+}
+
+.top .right h3 {
+  font-size: 1.7rem;
+  max-width: 60%;
+}
+
+.ratingRow {
+  display: flex;
+  gap: 1rem;
+}
+
+.priceBox {
+  display: grid;
+}
+
+.priceBox p {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.priceBox sup {
+  background: var(--pass);
+  font-size: 0.7rem;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 40px;
+}
+
+.discount {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 1.6rem;
+  color: var(--theme);
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.cartBox {
+  gap: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBox {
+  display: flex;
+  gap: 1vw;
+}
+
+.addBox nav {
+  display: flex;
+  align-items: center;
+}
+
+.addBox nav svg {
+  height: calc(50px - 14px);
+  padding: 7px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.addBox nav svg:hover {
+  background: var(--theme);
+  color: white;
+}
+
+.addBox input {
+  height: 50px;
+  border: 1px var(--line) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+}
+
+.addBox button {
+  width: 150px;
+  background: var(--theme);
+  color: white;
+  cursor: pointer;
+}
+
+
+.chatBoxHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+
+.chatBoxHolder small {
+  background: salmon;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 5px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.chatBox {
+  color: white;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  background: #2cd46b;
+  border-radius: 40px;
+  gap: 0.2rem;
+  padding: 4px 10px;
+}
+
+.serviceBox {
+  display: grid;
+  gap: 0.6vh;
+}
+
+.serviceBox ul {
+  display: grid;
+  gap: 0.2vh;
+}
+
+.serviceBox ul p {
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.serviceBox ul p span {
+  font-size: 0.9rem;
+}
+
+.serviceBox ul p svg {
+  color: var(--pass);
+}
+
+.top .right hr {
+  width: 100%;
+  border-top: 1px solid var(--line);
+}
+
+.low {
+  display: grid;
+  gap: 5vh;
+}
+
+.low header {
+  display: flex;
+  gap: 2rem;
+}
+
+.low header h3 {
+  padding: 5px 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+
+.specBox {
+  display: grid;
+  gap: 3vh;
+}
+
+.specialBox {
+  display: grid;
+  gap: 1vh;
+}
+
+.specialBox legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.specialBox legend svg {
+  background: var(--pass);
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  color: white;
+}
+
+.set {
+  display: grid;
+  gap: 2vh;
+}
+
+.set ul {
+  display: grid;
+}
+
+
+.reviewBox {
+  gap: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reviews {
+  display: grid;
+  gap: 4vh;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 1rem;
+}
+
+.review p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review article {
+  display: grid;
+  gap: 0.5vh;
+}
+
+.review article small {
+  font-size: 0.7rem;
+  color: var(--text);
+}
+
+.review .imgBox {
+  height: 40px;
+  position: relative;
+  background: violet;
+}
+
+.review .con {
+  color: var(--text);
+  font-size: 0.8rem;
+}
+
+.review .images {
+  gap: 1rem;
+  display: flex;
+}
+
+.review .images sup {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.review .images a {
+  padding: 5px;
+  display: block;
+  background: var(--line);
+}
+
+.relatedBox{
+  display: grid;
+  gap: 2vh;
+}
+.relatedBox h3{
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+
+@media all and (max-width:1050px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top .left {
+    width: 100%;
+  }
+
+  .top .left .mediaSet {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .top .left .mediaSet div {
+    width: auto;
+  }
+
+  .top .right h3 {
+    max-width: revert;
+  }
+
+  .reviewBox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media all and (max-width:850px) {
+  .bannerBox{
+    gap: 0.5rem;
+    align-items: flex-start;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    flex-direction: column;
+  }
+  .bannerBox svg{
+    display: none;
+  }
+
+  .top .left .imgBoxHolder {
+    height: 280px;
+  }
+
+  .top .left .mediaSet div {
+    height: 60px;
+  }
+
+  .cartBox {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .addBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .addBox nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .addBox nav input {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .addBox nav svg {
+    width: 100%;
+    border: none;
+    padding: 0;
+    background: var(--theme);
+    color: white;
+    height: 100%;
+    font-size: 1rem;
+  }
+
+  .addBox button {
+    width: auto;
+  }
+
+  .chatBoxHolder {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .relatedBox h3{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+}
