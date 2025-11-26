@@ -1,6 +1,6 @@
 "use client";
 import { Variation } from "@/types/product";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import { Dispatch, FC } from "react";
 
 type VariationBoxProps = {

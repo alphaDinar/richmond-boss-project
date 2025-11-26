@@ -6,7 +6,7 @@ import { fireStoreDB } from "@/firebase/base";
 import { createMediaType, fixMediaType, uploadImage } from "@/firebase/storageService";
 import { MediaType } from "@/types/media";
 import { Bundle, Product, Specification, Variation } from "@/types/product";
-import { Input, Textarea } from "@nextui-org/input";
+import { Input, Textarea } from "@nextui-org/react";
 import { Button, Select, SelectItem } from "@nextui-org/react";
 import { doc, setDoc, updateDoc } from "firebase/firestore";
 import { Dispatch, useState } from "react";

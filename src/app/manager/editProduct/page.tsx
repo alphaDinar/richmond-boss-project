@@ -9,10 +9,10 @@ import { Bundle, Product, Specification, Variation } from "@/types/product";
 import { MediaType } from "@/types/media";
 import { useProductList } from "@/contexts/productList";
 import SelectBox from "../SelectBox";
-import { Input, Textarea } from "@nextui-org/input";
+import { Input, Textarea } from "@nextui-org/react";
 import { useCategories } from "@/contexts/categoriesContext";
 import { useBrands } from "@/contexts/brandsContext";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 
 

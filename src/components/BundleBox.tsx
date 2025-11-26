@@ -1,6 +1,6 @@
 import { cedi } from "@/external/assets";
 import { Bundle, Product } from "@/types/product";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import { Dispatch, FC } from "react";
 
 type BundleBoxProps = {

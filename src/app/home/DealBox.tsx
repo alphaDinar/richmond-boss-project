@@ -3,7 +3,7 @@ import { useProductList } from "@/contexts/productList";
 import { cedi } from "@/external/assets";
 import { getDiscountPercentage } from "@/external/math";
 import { imageStyles } from "@/styles/styles";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 

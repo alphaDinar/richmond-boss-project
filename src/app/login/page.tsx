@@ -2,7 +2,7 @@
 import { Input } from "@nextui-org/input";
 import logoImg from "../../../public/logo.png";
 import Image from "next/image";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import { FcGoogle } from "react-icons/fc";
 import Link from "next/link";
 import { useEffect, useState } from "react";

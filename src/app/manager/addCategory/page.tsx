@@ -1,8 +1,8 @@
 "use client";
 import { fireStoreDB } from "@/firebase/base";
 import { Category } from "@/types/category";
-import { Button } from "@nextui-org/button";
-import { Input } from "@nextui-org/input";
+import { Button } from "@nextui-org/react";
+import { Input } from "@nextui-org/react";
 import { doc, setDoc } from "firebase/firestore";
 import { useState } from "react";
 

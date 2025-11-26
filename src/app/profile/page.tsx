@@ -5,7 +5,7 @@ import TopNav from "@/components/TopNav/TopNav";
 import { useCustomer } from "@/contexts/customerContext";
 import { fireAuth, fireStoreDB } from "@/firebase/base";
 import { useCustomerLoading } from "@/loaders/customerLoadingContext";
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import { Card, CardBody, Tab, Tabs } from "@nextui-org/react";
 import { signOut } from "firebase/auth";
 import { usePathname, useRouter } from "next/navigation";

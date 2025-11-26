@@ -8,7 +8,7 @@ import { regionList } from "@/external/lists";
 import { convertCartItemToOrderItem, fixItemBundle, getCartTotal, getItemBundle, getItemPrice, refineCartItems } from "@/firebase/cartService";
 import { CartItem } from "@/types/cart";
 import { SearchBoxItem } from "@/types/def";
-import { Input } from "@nextui-org/input";
+import { Input } from "@nextui-org/react";
 import { Autocomplete, AutocompleteItem, Button, Chip, Select, SelectItem, Spinner } from "@nextui-org/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";

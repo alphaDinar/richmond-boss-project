@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/button";
+import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import { GrAppleAppStore } from "react-icons/gr";
 import { RiGooglePlayLine } from "react-icons/ri";

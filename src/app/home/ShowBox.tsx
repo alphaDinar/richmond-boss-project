@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { cedi } from '@/external/assets';
-import { Button } from '@nextui-org/button';
+import { Button } from '@nextui-org/react';
 
 const ShowBox = () => {
   type Show = {

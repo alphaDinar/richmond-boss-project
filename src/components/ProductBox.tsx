@@ -1,8 +1,7 @@
 'use client';
 import Product from './Product/Product';
-import { useProductList } from '@/contexts/productList';
 import { useWishList } from '@/contexts/wishListContext';
-import { useDisclosure } from "@nextui-org/modal";
+import { useDisclosure } from "@nextui-org/react";
 import ProductModal from './ProductModal';
 import { FC, useState } from 'react';
 import { Product as ProductType } from '@/types/product';

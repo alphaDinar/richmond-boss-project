@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import { cedi } from '@/external/assets';
-import { Button } from '@nextui-org/button';
+import { Button } from '@nextui-org/react';
 
 const HeadBox = () => {
   const bgA = "https://media.burford.co.uk/images/SNY04089.jpg_edit.width-640_ln7jm6QxYVkHFHaT.jpg";
