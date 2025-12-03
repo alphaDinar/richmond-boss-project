@@ -7,7 +7,7 @@ const HeadBox = () => {
   const bgA = "https://media.burford.co.uk/images/SNY04089.jpg_edit.width-640_ln7jm6QxYVkHFHaT.jpg";
   const bgB = "https://www.tomjames.com/localpics/MEN-LOOKING-FOR-A-PROFESSIONAL-WARDROBE.jpg"
   const bgC = "https://images.squarespace-cdn.com/content/v1/5585a9bae4b08677430390e7/edc9591c-f377-4011-8ad1-04d528a3b119/my+closet.jpg"
-  const vid = "https://res.cloudinary.com/dvnemzw0z/video/upload/v1725621120/Testers/AirPods_Max___Commercial_Reimagined_duy0lx.mp4";
+  const vid = "https://www.tomjames.com/localpics/MEN-LOOKING-FOR-A-PROFESSIONAL-WARDROBE.jpg";
 
   const sheet = <section className='absolute top-0 left-0 bg-black w-full h-full opacity-[0.4] text-white z-10'></section>
 
@@ -35,7 +35,7 @@ const HeadBox = () => {
       <section className="grid grid-rows-2 gap-4 half-screen:gap-2">
         <section className="grid grid-cols-[1.4fr_2fr] gap-4 flex-1  half-screen:gap-2">
           <section className="relative overflow-hidden half-screen:rounded-[10px]"
-            style={{ backgroundImage: `url(${bgA})`, backgroundSize: 'cover' }}
+            style={{ backgroundImage: `url(${vid})`, backgroundSize: 'cover' }}
           >
             {/* <video src={vid} muted loop autoPlay className='object-cover absolute w-full h-full'></video> */}
           </section>

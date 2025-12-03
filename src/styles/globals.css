@@ -33,13 +33,6 @@
 }
 
 :root {
-  /* 
-  --theme: rgb(136, 197, 47);
-  --bg: #232520;
-  --secondary: #232520;
-  --gold: #846E3B;
-  --primary: rgb(136, 197, 47);
-  --input: rgb(240, 244, 249); */
   --bg: #252525;
   --theme: #f8233a;
   --pass: #0cd570;

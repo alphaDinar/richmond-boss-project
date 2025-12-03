@@ -6,7 +6,6 @@ import styles from './productSlide.module.css';
 import Product from '../Product/Product';
 import { FC, useRef, useState } from 'react';
 // import ProductPop from '../ProductPop/ProductPop';
-import { MdArrowRight } from 'react-icons/md';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Product as ProductType } from '@/types/product';
 import { useWishList } from '@/contexts/wishListContext';
